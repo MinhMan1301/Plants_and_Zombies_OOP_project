@@ -1,24 +1,19 @@
-import java.util.Scanner;  // Bước 1: import thư viện Scanner
+import Controller.GardenController;
+import Model.GardenModel;
+import View.GardenView;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in); // Bước 2: tạo đối tượng Scanner
+        GardenModel model = new GardenModel(5, 9);
+        GardenView view = new GardenView(model);
+        GardenController controller = new GardenController(model, view);
 
-        // Bước 3: nhập dữ liệu
-        System.out.print("Nhập tên: ");
-        String name = sc.nextLine();   // nhập chuỗi
+        controller.start();
 
-        System.out.print("Nhập tuổi: ");
-        int age = sc.nextInt();        // nhập số nguyên
-
-        System.out.print("Nhập chiều cao (m): ");
-        double height = sc.nextDouble();  // nhập số thực
-
-        // Bước 4: in ra kết quả
-        System.out.println("Tên: " + name);
-        System.out.println("Tuổi: " + age);
-        System.out.println("Chiều cao: " + height);
-
-        sc.close(); // Bước 5: đóng Scanner
+        // Thử hiển thị vài ô
+        controller.placePlant(2, 1);
+        controller.placePlant(3, 4);
+        controller.addZombie(1, 6);
+        controller.addZombie(2, 8);
     }
 }
