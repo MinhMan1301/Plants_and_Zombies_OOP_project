@@ -29,12 +29,14 @@ The game includes 2 lanes, multiple plant types, zombies, and basic strategy mec
 
 The project follows a **variant of MVC**, split into clear packages:
 
-src/
-├── view/ # GameFrame, GamePanel, rendering, images
-├── core/ # Game loop, managers, collision handling
-├── plants/ # Plant classes (Sunflower, Peashooter, FreezePeashooter)
-├── zombies/ # Zombie classes
-├── utils/ # (projectles, products which plants generate)
+
+A simple breakdown of the main folders:
+- **view/** – handles the game interface and rendering.
+- **core/** – contains the main game logic and update loop.
+- **plants/** – all plant-related classes.
+- **zombies/** – all zombie-related classes.
+- **utils/** – utilities such as projectiles and items created by plants.
+
 
 
 ### 🔧 Design Highlights
@@ -46,8 +48,10 @@ src/
 ---
 
 ## 🎥 Demo
-📌 *Video demo placeholder — replace with your real link:*  
-https://youtu.be/your-demo-link
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/28b27a2c-f142-4f41-a741-1d69167236d8" width="700" alt="Game Demo Preview"/>
+</p>
 
 ---
 
