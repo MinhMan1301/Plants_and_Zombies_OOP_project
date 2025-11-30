@@ -49,11 +49,7 @@ A simple breakdown of the main folders:
 
 ## 🎥 Demo
 
-<p align="center">
-  <a href="https://github.com/user-attachments/assets/28b27a2c-f142-4f41-a741-1d69167236d8">
-    <img src="https://github.com/user-attachments/assets/28b27a2c-f142-4f41-a741-1d69167236d8" width="700" alt="Game Demo Preview"/>
-  </a>
-</p>
+[**Video Demo: P&Z Tower Defense**](https://github.com/user-attachments/assets/28b27a2c-f142-4f41-a741-1d69167236d8)
 
 ---
 
