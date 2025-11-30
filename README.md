@@ -80,7 +80,6 @@ A simple breakdown of the main folders:
 **Leader:** Minh Mẫn  
 📧 Email: **phamminhman1312005@gmail.com**  
 🔗 GitHub: **MinhMan1301** — https://github.com/MinhMan1301  
-🔗 LinkedIn: **Minh Mẫn** — https://www.linkedin.com/in/minh-m%E1%BA%ABn-47b493311/
 
 ---
 
